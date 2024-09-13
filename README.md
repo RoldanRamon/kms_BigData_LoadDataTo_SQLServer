@@ -26,10 +26,10 @@ Efficiency: Leverage R's ecosystem for both in-memory and distributed data proce
 install.packages(c("sparklyr", "dplyr", "dbplyr", "DBI", "odbc", "data.table", "janitor"))
 ```
 
-2. Clone this repository:
+2. Clone this repository (SSH):
 
 ```r
-git clone https://github.com/your-repo-url.git
+git clone git@github.com:RoldanRamon/kms_BigData_LoadDataTo_SQLServer.git
 ```
 
 3. Ensure you have Java installed for sparklyr:
